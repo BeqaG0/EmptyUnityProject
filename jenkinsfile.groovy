@@ -7,7 +7,7 @@ pipeline {
         BUILD_PATH = "${WORKSPACE}/Build"           // Output build folder
         BUILD_TARGET = "StandaloneWindows64"        // Change as needed (e.g., StandaloneOSX, Android, iOS, etc.)
         BUILD_NAME = "MyGame.exe"                   // Output file name
-        LOG_FILE = "${WORKSPACE}/unity_build.log"
+        LOG_FILE = "${WORKSPACE}/unity_build.Log"
     }
 
     stages {
