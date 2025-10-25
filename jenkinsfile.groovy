@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        UNITY_PATH = "A:/Unity/6000.0.60f1/Editor./Unity.exe"      // Path to Unity executable
+        UNITY_PATH = "A:/Unity/6000.0.60f1/Editor/Unity.exe"      // Path to Unity executable
         PROJECT_PATH = "${WORKSPACE}"               // Unity project root
         BUILD_PATH = "${WORKSPACE}/Build"           // Output build folder
         BUILD_TARGET = "StandaloneWindows64"        // Change as needed (e.g., StandaloneOSX, Android, iOS, etc.)
