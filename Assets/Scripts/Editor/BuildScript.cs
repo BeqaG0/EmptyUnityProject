@@ -6,7 +6,7 @@ public static class BuildScript
     {
         string path = "Build/MyGame.exe";
         string[] scenes = {
-            "Assets/Scenes/Main.unity"
+            "Assets/Scenes/SampleScene.unity"
         };
 
         BuildPipeline.BuildPlayer(scenes, path, BuildTarget.StandaloneWindows64, BuildOptions.None);
